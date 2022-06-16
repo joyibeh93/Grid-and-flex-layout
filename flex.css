@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+h2 {
+    text-align: center;
+    padding: 0 40px;
+    color: #000;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: green;
+}
+
+a:hover {
+    background-color: white;
+    padding: 5px;
+    color: orangered;
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.box {
+    width: 100%;
+    padding: 1.875rem;
+    height: 70%;
+    margin: 4.375rem auto;
+}
+
+.box h1 {
+    margin-top: 50px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 205%;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.box p {
+    line-height: 2em;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 70%;
+    width: 10.625rem;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 1.875rem;
+}
+
+button {
+    margin-top: 3.75rem;
+    padding: 0.625rem 1.875rem;
+    border-radius: 1.25rem;
+    background-color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+img {
+    width: 2.1875rem;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.btn1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.btn1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+
+.btn3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+
+.box-orangered {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.box-cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.box-darkcyan {
+    background-color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        display: block;
+        overflow-y: scroll;
+    }
+    .box {
+        padding: 1rem;
+        margin: 0;
+    }
+    .box h1 {
+        font-size: 250%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .box p {
+        font-size: 100%;
+        width: 14.625rem;
+        margin: 15px auto;
+    }
+    button {
+        margin: 20px 60px;
+    }
+}
